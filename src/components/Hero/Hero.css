@@ -5,9 +5,8 @@
     font-weight: bold;
     /* font-size: 1.25rem; */
 }
-/* .hero{
-   height: 80vh;
-} */
+.hero{ top: 100px;}
+ 
 .text-hero {
     display: flex !important;
     align-items: center !important;

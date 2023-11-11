@@ -5,19 +5,3 @@
     font-weight: bold;
     /* font-size: 1.25rem; */
 }
-.image-ess{
-    transition: transform 0.5s ease;
-}
-.image-ess:hover{
-    transform: scale(1.2);
-}
- .essential a{
-    text-decoration: none;
-    color: black;
-    }
-    .essential  a:hover{
-        color: red;
-    }
-    .essential p{
-        color: gray;
-    }

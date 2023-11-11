@@ -7,6 +7,8 @@ import inno5 from './../../assets/imges/inno5.webp'
 import innocenter from './../../assets/imges/innocenter.webp'
 import inno6 from './../../assets/imges/inno6.webp'
 import './Innovate.css'
+import InnovateCard1 from './InnovateCard1'
+import InnovateCard2 from './InnovateCard2'
 
 const Innovate = () => {
     return (
@@ -17,29 +19,20 @@ const Innovate = () => {
                 <div className="row">
 
                     <div className="col-lg-4 col-md-6 col-sm-12 order2 d-flex flex-column  justify-content-center ">
-                        <div className="d-flex">
-                            <div className="text-center">
-                                <a href="#">INTELLEGENT PROCESSOOR</a>
-                                <p>Tellus in hac habitasse platea dictumst vestibulum rhoncus srd mana erti qeueri</p>
-                            </div>
-                            <img className="image-innov" src={inno1} />
-                        </div>
+                        
+                        <InnovateCard1 img={inno1}
+                        title="INTELLEGENT PROCESSOOR"
+                        descreption="Tellus in hac habitasse platea dictumst vestibulum rhoncus srd mana erti qeueri"/>
+                      
+                      <InnovateCard1 img={inno2}
+                        title="INTELLEGENT PROCESSOOR"
+                        descreption="Tellus in hac habitasse platea dictumst vestibulum rhoncus srd mana erti qeueri"/>
+                      
+                      <InnovateCard1 img={inno3}
+                        title="INTELLEGENT PROCESSOOR"
+                        descreption="Tellus in hac habitasse platea dictumst vestibulum rhoncus srd mana erti qeueri"/>
+                      
 
-                        <div className="d-flex">
-                            <div className="text-center">
-                                <a href="#">INTELLEGENT PROCESSOOR</a>
-                                <p>Tellus in hac habitasse platea dictumst vestibulum rhoncus srd mana erti qeueri</p>
-                            </div>
-                            <img className="image-innov" src={inno2} />
-                        </div>
-
-                        <div className="d-flex">
-                            <div className="text-center">
-                                <a href="#">INTELLEGENT PROCESSOOR</a>
-                                <p>Tellus in hac habitasse platea dictumst vestibulum rhoncus srd mana erti qeueri</p>
-                            </div>
-                            <img className="image-innov" src={inno3} />
-                        </div>
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-12 order1">
                         <img className="img-center-innov" src={innocenter} />
@@ -47,32 +40,19 @@ const Innovate = () => {
 
 
                     <div className="col-lg-4 col-md-6 col-sm-12 order3 d-flex flex-column  justify-content-center ">
-                        <div className="d-flex ">
-                            <img className="image-innov" src={inno4} />
-                            <div className="text-center">
-                                <a href="#">INTELLEGENT PROCESSOOR</a>
-                                <p>Tellus in hac habitasse platea dictumst vestibulum rhoncus srd mana erti qeueri</p>
-                            </div>
+                    <InnovateCard2 img={inno4}
+                        title="INTELLEGENT PROCESSOOR"
+                        descreption="Tellus in hac habitasse platea dictumst vestibulum rhoncus srd mana erti qeueri"/>
+                      
+                      <InnovateCard2 img={inno5}
+                        title="INTELLEGENT PROCESSOOR"
+                        descreption="Tellus in hac habitasse platea dictumst vestibulum rhoncus srd mana erti qeueri"/>
+                      
 
-                        </div>
-
-                        <div className="d-flex  ">
-                            <img className="image-innov" src={inno5} />
-                            <div className="text-center">
-                                <a href="#">INTELLEGENT PROCESSOOR</a>
-                                <p>Tellus in hac habitasse platea dictumst vestibulum rhoncus srd mana erti qeueri</p>
-                            </div>
-
-                        </div>
-
-                        <div className="d-flex ">
-                            <img className="image-innov" src={inno6} />
-                            <div className="text-center">
-                                <a href="#">INTELLEGENT PROCESSOOR</a>
-                                <p>Tellus in hac habitasse platea dictumst vestibulum rhoncus srd mana erti qeueri</p>
-                            </div>
-
-                        </div>
+                      <InnovateCard2 img={inno6}
+                        title="INTELLEGENT PROCESSOOR"
+                        descreption="Tellus in hac habitasse platea dictumst vestibulum rhoncus srd mana erti qeueri"/>
+                      
                     </div>
                 </div>
 

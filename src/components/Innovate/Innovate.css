@@ -9,25 +9,6 @@
     width: 80%;
 }
 
-.image-innov {
-    transition: transform 0.5s ease;
-}
-
-.innovate a {
-    text-decoration: none;
-    color: black;
-}
-
-.innovate a:hover {
-    color: red;
-}
-
-.image-innov:hover {
-    transform: scale(1.2);
-}
-.innovate p{
-    color: gray;
-} 
 
 @media screen and (max-width:992px) {
 
