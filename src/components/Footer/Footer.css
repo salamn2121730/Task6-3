@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    /* font-size: 1.25rem; */
+}
+.footer{
+    padding: 30px;
+    height: 500px;
+    background-image: url('./../../assets/imges/footer.webp');
+    color: white;
+}
+.footer a{
+    color: white;
+}
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.end{
+flex-wrap: wrap;
+    gap: 20px;
+}
+#input{
+    border-radius: 20%;
+}

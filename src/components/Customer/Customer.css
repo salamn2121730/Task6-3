@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    /* font-size: 1.25rem; */
+}
+.customer{
+    padding: 30px;
+    background-image: url('./../../assets/imges/footer.webp');
+}
+.accordion-button ,.accordion-body{
+    color: white;
+    background-color: black;
+}
+.img-customer{
+    width: 80%;
+}

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    /* font-size: 1.25rem; */
+}
+.img-center-innov {
+    width: 80%;
+}
+
+.image-innov {
+    transition: transform 0.5s ease;
+}
+
+.innovate a {
+    text-decoration: none;
+    color: black;
+}
+
+.innovate a:hover {
+    color: red;
+}
+
+.image-innov:hover {
+    transform: scale(1.2);
+}
+.innovate p{
+    color: gray;
+} 
+
+@media screen and (max-width:992px) {
+
+    .order1 {
+        order: 1;
+    }
+
+    .order2 {
+        order: 2;
+    }
+
+    .order3 {
+        order: 3;
+    }
+}
